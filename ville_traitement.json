@@ -1,6 +1,6 @@
 {
     "villes": [
-      {"nom": "Nice", "lat": 43.700000, "lon": 7.250000},
+      {"nom": "Montpellier", "lat": 43.62505, "lon": 3.862038},
       {"nom": "Strasbourg", "lat": 48.583328, "lon": 7.75},
       {"nom": "Paris", "lat": 48.866667, "lon": 2.333333},
       {"nom": "Rennes", "lat": 48.083328, "lon": -1.68333},
