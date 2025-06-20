@@ -14,9 +14,10 @@ load_dotenv()
 AQ_API_KEY = os.getenv("AQ_API_KEY")
 WM_API_KEY = os.getenv("WM_API_KEY")
 GCS_BUCKET_NAME = os.getenv("GCS_BUCKET_NAME")
+JSON_PATH = os.getenv("JSON_PATH")
 
 # Charger les villes depuis le fichier JSON
-with open("C:/Users/camil/OneDrive - Ifag Paris/Cours/MSPR_EID_BLOC_3/Projet_MSPR_3/ville_traitement.json", "r") as file:
+with open(f"{JSON_PATH}", "r") as file:
     VILLES = json.load(file)["villes"]
 
 # URLs des API
