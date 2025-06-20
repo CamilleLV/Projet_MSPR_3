@@ -144,7 +144,7 @@ def main():
     all_merged_df = []
     date_du_jour = datetime.today().strftime("%Y-%m-%d")
 
-    save_path = "C:/Users/camil/OneDrive - Ifag Paris/Cours/MSPR_EID_BLOC_3/Projet_MSPR_3/"
+    save_path = "./save/"
     
     for ville in VILLES:
         city, lat, lon = ville["nom"], ville["lat"], ville["lon"]
